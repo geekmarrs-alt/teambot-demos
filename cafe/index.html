@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Willow Tree Cafe (demo) | Village cafe</title>
+<style>
+:root{--g:#3f5e4a;--c:#f8f1e7;--t:#c86b4a}*{box-sizing:border-box}body{margin:0;font-family:Georgia,'Times New Roman',serif;color:#2d2a26;background:var(--c);line-height:1.6}
+.s{font-family:system-ui,Segoe UI,Arial,sans-serif}.w{max-width:1080px;margin:auto;padding:0 20px}
+header{background:#fff;border-bottom:1px solid #e8dccb}header .w{display:flex;justify-content:space-between;align-items:center;padding:14px 20px}
+.logo{font-size:1.4rem;color:var(--g);font-weight:700}nav a{margin-left:18px;color:#2d2a26;text-decoration:none}
+.btn{display:inline-block;background:var(--t);color:#fff;padding:11px 20px;border-radius:30px;text-decoration:none;font-family:system-ui,Arial,sans-serif;font-weight:600}.btn2{background:var(--g)}
+.hero{background:radial-gradient(circle at 75% 30%,#e9c9a5 0,#c99b6d 35%,#6b4a32 100%);color:#fff;padding:90px 0}.hero h1{font-size:2.8rem;margin:0;line-height:1.1}.hero p{font-size:1.2rem;max-width:560px}
+.hours{background:var(--g);color:#fff}.hours .w{display:flex;flex-wrap:wrap;gap:8px 28px;padding:14px 20px;justify-content:center}
+.open{background:#9fd3a8;color:#123;padding:2px 10px;border-radius:12px;font-weight:700}
+section{padding:56px 0}h2{color:var(--g);font-size:2rem;margin-top:0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#fff;border-radius:14px;padding:22px;box-shadow:0 3px 10px rgba(80,50,20,.07)}.price{float:right;color:var(--t);font-weight:700}
+.menu li{list-style:none;border-bottom:1px dotted #d8c8b4;padding:8px 0}.menu ul{padding:0}.tag{font-size:.75rem;background:#eef3ec;color:var(--g);padding:1px 7px;border-radius:8px}
+.gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.gal div{height:140px;border-radius:12px}
+.p1{background:linear-gradient(135deg,#e8b77a,#a0612f)}.p2{background:linear-gradient(135deg,#f1d9c2,#d08b6b)}.p3{background:linear-gradient(135deg,#9bb59f,#3f5e4a)}.p4{background:linear-gradient(135deg,#f3e2b5,#c9a14a)}
+.map{height:220px;border-radius:14px;background:repeating-linear-gradient(0deg,#dfe7da,#dfe7da 38px,#fff 38px,#fff 42px),#dfe7da;display:flex;align-items:center;justify-content:center;font-size:1.1rem}
+footer{background:#2d2a26;color:#d9cfc2;padding:28px 0;font-size:.9rem}
+@media(max-width:720px){nav{display:none}.hero h1{font-size:2rem}}
+</style></head><body>
+<header><div class="w"><div class="logo">🌿 The Willow Tree Cafe</div><nav class="s"><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#find">Find us</a><a class="btn" href="#book">Book a table</a></nav></div></header>
+<div class="hero"><div class="w"><h1>Homemade cakes, local produce,<br>dogs welcome.</h1><p>A friendly village cafe serving breakfasts, light lunches and proper coffee, plus outside catering for parties and work events.</p><p><a class="btn" href="#menu">View menu</a> &nbsp; <a class="btn btn2" href="#find">Get directions</a></p></div></div>
+<div class="hours s"><div class="w"><span class="open">Open today</span><span>Mon–Fri 8am–3pm</span><span>Sat 9am–3pm</span><span>Sun 10am–2pm</span><span>📞 <a style="color:#fff" href="tel:01234567890">01234 567890</a></span></div></div>
+<section><div class="w"><h2>Today's specials</h2><div class="grid">
+<div class="card"><span class="price">£7.95</span><b>Leek &amp; potato soup</b><p class="s">With crusty bread from a local bakery.</p></div>
+<div class="card"><span class="price">£3.50</span><b>Lemon drizzle slice</b><p class="s">Baked in-house this morning.</p></div>
+<div class="card"><span class="price">£9.50</span><b>Full village breakfast</b><p class="s">Local sausages, bacon, eggs, beans and toast.</p></div></div></div></section>
+<section id="menu" style="background:#fff"><div class="w"><h2>Menu</h2><div class="grid menu s">
+<div><h3>Breakfast</h3><ul><li>Bacon or sausage bap <span class="price">£4.50</span></li><li>Avocado on sourdough <span class="tag">V</span> <span class="price">£6.95</span></li><li>Porridge with honey <span class="tag">VG option</span> <span class="price">£4.25</span></li></ul></div>
+<div><h3>Lunch</h3><ul><li>Jacket potato, choice of filling <span class="price">£6.50</span></li><li>Ploughman's platter <span class="price">£8.95</span></li><li>Toasted panini <span class="price">£6.75</span></li></ul></div>
+<div><h3>Drinks &amp; cake</h3><ul><li>Latte / cappuccino <span class="price">£3.20</span></li><li>Pot of tea <span class="price">£2.60</span></li><li>Scone, jam &amp; cream <span class="price">£3.95</span></li></ul></div></div>
+<p class="s"><small>Allergen information is available for every dish: please ask a member of staff. Sample menu and prices.</small></p></div></section>
+<section id="gallery"><div class="w"><h2>Gallery</h2><div class="gal"><div class="p1"></div><div class="p2"></div><div class="p3"></div><div class="p4"></div></div><p class="s"><small>Placeholder images: real photos or an Instagram feed go here.</small></p></div></section>
+<section style="background:#fff"><div class="w"><h2>Kind words</h2><div class="grid s">
+<div class="card">★★★★★ "Best scones for miles, and they brought a water bowl for our dog." <br><b>Sample review</b></div>
+<div class="card">★★★★★ "They catered our office lunch: everything was fresh and on time." <br><b>Sample review</b></div></div></div></section>
+<section id="book"><div class="w"><div class="grid">
+<div class="card s"><h2>Book a table</h2><p>Book online any time, or just walk in.</p><a class="btn" href="#book" onclick="alert('Demo only: a booking widget would go here.')">Book now</a></div>
+<div class="card s"><h2>Outside catering</h2><p>Sandwich platters, cakes and buffets for parties and work events.</p><a class="btn btn2" href="mailto:hello@example.com">Catering enquiry</a></div></div></div></section>
+<section id="find" style="background:#fff"><div class="w"><h2>Find us</h2><div class="grid"><div class="s"><p><b>The Willow Tree Cafe</b><br>1 Example Street<br>Anyvillage, Leicestershire AB1 2CD</p><p>Free parking opposite. Step-free entrance.</p><a class="btn btn2" href="#find">Get directions</a></div><div class="map s">📍 Map goes here</div></div></div></section>
+<footer class="s"><div class="w">The Willow Tree Cafe is a fictional business for demonstration only. · 01234 567890 · hello@example.com<br>Privacy &amp; cookies · Demo site by TeamBot</div></footer>
+</body></html>
